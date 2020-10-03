@@ -1,2 +1,2 @@
-# faulty-calculator
-a faulty calculator
+# Faulty-Calculator
+# harry sir's exercise
