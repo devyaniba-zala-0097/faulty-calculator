@@ -1,13 +1,13 @@
                                             #faulty calculater
 
-while (True):
+while (1):
  a = float(input("Enter Your First Number:"))
  c= input("Which Action Do You Wants Enter Here:")
  b = float(input("Enter Your Second Number:"))
 
- re1 = a+b
+ re3 = a+b
  re2 = a*b
- re3 = a/b
+ re1 = a/b
  re4 = a-b
 
  if a==56 and b==9 and c=="+":
@@ -33,9 +33,9 @@ while (True):
 
  else:
     if "+" in c:
-        print(re1)
-    elif "/" in c:
         print(re3)
+    elif "/" in c:
+        print(re1)
     elif "*" in c:
         print(re2)
     elif "-" in c:
@@ -45,17 +45,16 @@ while (True):
 
     A = input("if You Wants T Re Calculate Enter 'Y' Else Enter 'N':")
 
-    if "n"in A:
+    if "N"in A:
 
         print("Thanks .")
         break
-    if "y" in A:
-
+        
+    if "Y" in A:
         print("Then Enjoying !!!")
         continue
 
     else:
-
        print("Error.")
        print("Please Type 'Y' Or 'N' , Nothing Else.")
        break
