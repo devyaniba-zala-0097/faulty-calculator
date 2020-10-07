@@ -43,13 +43,13 @@ while (True):
     else:
         print("Error.")
 
-    A = input("if You Wants T Re Calculate Enter 'Y' Else Enter 'N':")
+    A = input("if You Wants T Re Calculate Enter 'yes' Else Enter 'no':")
 
-    if "n"in A:
+    if "no"in A:
 
         print("Thanks .")
         break
-    if "y" in A:
+    if "yes" in A:
 
         print("Then Enjoying !!!")
         continue
@@ -57,6 +57,6 @@ while (True):
     else:
 
        print("Error.")
-       print("Please Type 'Y' Or 'N' , Nothing Else.")
+       print("Please Type 'yes' Or 'no' , Nothing Else.")
        break
 
